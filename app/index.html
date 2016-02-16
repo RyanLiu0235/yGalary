@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="minimal-ui=yes,width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <title>photo_galary</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+    <div class="photo_galary">
+        <div class="galary_container">
+            <div class="item">
+                <img src="http://tvvt.yhd.cn:9000/f00/330x550">
+            </div>
+            <div class="item">
+                <img src="http://tvvt.yhd.cn:9000/ff0/330x550">
+            </div>
+            <div class="item">
+                <img src="http://tvvt.yhd.cn:9000/f0f/330x550">
+            </div>
+            <div class="item">
+                <img src="http://tvvt.yhd.cn:9000/0ff/330x550">
+            </div>
+            <div class="item">
+                <img src="http://tvvt.yhd.cn:9000/00f/330x550">
+            </div>
+        </div>
+    </div>
+    <script src="//cdn.bootcss.com/zepto/1.1.3/zepto.min.js"></script>
+    <script src="/js/yGalary.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('.photo_galary').yGalary();
+    });
+    </script>
+</body>
+
+</html>

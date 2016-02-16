@@ -1,0 +1,25 @@
+@charset 'utf-8';
+@import './common.less';
+@import './base.less';
+.transition {
+    .transition(all 0.2s);
+}
+
+.photo_galary {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    .galary_container {
+        position: relative;
+        height: 400px;
+        .item {
+            position: absolute;
+            top: 0;
+            .css-prefix(transform-origin, center);
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
